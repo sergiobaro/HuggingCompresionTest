@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D9485A3524608D9800854A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9485A3424608D9800854A55 /* AppDelegate.swift */; };
-		D9485A3924608D9800854A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9485A3824608D9800854A55 /* ViewController.swift */; };
+		D9485A3924608D9800854A55 /* HorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9485A3824608D9800854A55 /* HorizontalViewController.swift */; };
 		D9485A3C24608D9800854A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9485A3A24608D9800854A55 /* Main.storyboard */; };
 		D9485A3E24608D9900854A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9485A3D24608D9900854A55 /* Assets.xcassets */; };
 		D9485A4124608D9900854A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9485A3F24608D9900854A55 /* LaunchScreen.storyboard */; };
+		D956B95A24615D5F00AD2CBA /* VerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956B95924615D5F00AD2CBA /* VerticalViewController.swift */; };
+		D956B95C24616CFB00AD2CBA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D956B95B24616CFB00AD2CBA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9485A3124608D9800854A55 /* HuggingCompresionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuggingCompresionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9485A3424608D9800854A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9485A3824608D9800854A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9485A3824608D9800854A55 /* HorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewController.swift; sourceTree = "<group>"; };
 		D9485A3B24608D9800854A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9485A3D24608D9900854A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9485A4024608D9900854A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9485A4224608D9900854A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D956B95924615D5F00AD2CBA /* VerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalViewController.swift; sourceTree = "<group>"; };
+		D956B95B24616CFB00AD2CBA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				D9485A3424608D9800854A55 /* AppDelegate.swift */,
-				D9485A3824608D9800854A55 /* ViewController.swift */,
+				D9485A3824608D9800854A55 /* HorizontalViewController.swift */,
+				D956B95924615D5F00AD2CBA /* VerticalViewController.swift */,
+				D956B95B24616CFB00AD2CBA /* Extensions.swift */,
 				D9485A3A24608D9800854A55 /* Main.storyboard */,
 				D9485A3D24608D9900854A55 /* Assets.xcassets */,
 				D9485A3F24608D9900854A55 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9485A3924608D9800854A55 /* ViewController.swift in Sources */,
+				D956B95C24616CFB00AD2CBA /* Extensions.swift in Sources */,
+				D956B95A24615D5F00AD2CBA /* VerticalViewController.swift in Sources */,
+				D9485A3924608D9800854A55 /* HorizontalViewController.swift in Sources */,
 				D9485A3524608D9800854A55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
